@@ -14,3 +14,12 @@ kubectl apply -f portainer.yaml
 ````
 
 You can reach to portainer ````http://localhost:30777````
+
+
+#### AUTOSCALING
+````
+kubectl apply -f metric-server.yaml
+````
+````
+kubectl apply -f auto-scaling.yaml
+````
