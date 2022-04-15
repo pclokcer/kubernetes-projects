@@ -1,5 +1,5 @@
 ### PORTAINER SETUP
-````
+````shell
 kubectl apply -f portainer.yaml
 ````
 
